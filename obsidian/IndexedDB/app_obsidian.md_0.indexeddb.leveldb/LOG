@@ -1,0 +1,11 @@
+2022/11/28-22:41:55.353 dca Recovering log #24
+2022/11/28-22:41:55.623 dca Level-0 table #27: started
+2022/11/28-22:41:55.687 dca Level-0 table #27: 141032 bytes OK
+2022/11/28-22:41:55.771 dca Delete type=0 #24
+2022/11/28-22:41:55.771 dca Delete type=3 #22
+2022/11/28-22:50:16.895 ddd Compacting 1@0 + 1@1 files
+2022/11/28-22:50:16.987 ddd Generated table #29@0: 205 keys, 14395 bytes
+2022/11/28-22:50:16.987 ddd Compacted 1@0 + 1@1 files => 14395 bytes
+2022/11/28-22:50:17.071 ddd compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/11/28-22:50:17.072 ddd Delete type=2 #25
+2022/11/28-22:50:17.072 ddd Delete type=2 #27

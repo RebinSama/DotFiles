@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="4"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="5"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (57%)"/>
+        <value type="string" value="configuring wi-fi network connection “trk”…"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (92%)"/>
+        <value type="string" value="wi-fi network connection “ali” active: ali (47%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (64%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (85%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (82%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (95%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (80%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (65%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (69%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (72%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (67%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (100%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (90%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (94%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (75%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (87%)"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (79%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (74%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (70%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (77%)"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (89%)"/>
+        <value type="string" value="ibus-ui-gtk3"/>
+        <value type="string" value="wi-fi network connection “trk” active: trk (84%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="update-notifier"/>
+        <value type="string" value="network"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="ibus panel"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Windscribe2"/>
+        <value type="string" value="aw-qt"/>
+        <value type="string" value="Outline1"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Fcitx"/>
+        <value type="string" value="persepolis"/>
+        <value type="string" value="1"/>
+        <value type="string" value="ticktick1"/>
+        <value type="string" value="Free Download Manager"/>
+        <value type="string" value="nm-applet"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance1066;chromium.instance1075;chromium.instance1127;chromium.instance1234;chromium.instance1294;chromium.instance1316;chromium.instance1623;chromium.instance1856;chromium.instance19403;chromium.instance2022;chromium.instance2321;chromium.instance2463;chromium.instance2749;chromium.instance2763;chromium.instance3514;chromium.instance3728;chromium.instance4168;chromium.instance5278;chromium.instance5298;chromium.instance6010;chromium.instance6441;chromium.instance7431;chromium.instance7647;chromium.instance7665;chromium.instance789;chromium.instance792;chromium.instance797;chromium.instance799;chromium.instance800;chromium.instance801;chromium.instance805;chromium.instance806;chromium.instance813;chromium.instance814;chromium.instance815;chromium.instance817;chromium.instance818;chromium.instance819;chromium.instance820;chromium.instance822;chromium.instance823;chromium.instance825;chromium.instance826;chromium.instance828;chromium.instance830;chromium.instance835;chromium.instance837;chromium.instance862;chromium.instance876;chromium.instance943;chromium.instance990;firefox.instance1044;firefox.instance1077;firefox.instance1111;firefox.instance1171;firefox.instance11802;firefox.instance11937;firefox.instance14851;firefox.instance1744;firefox.instance1747;firefox.instance1839;firefox.instance19136;firefox.instance20162;firefox.instance20367;firefox.instance2158;firefox.instance2461;firefox.instance2568;firefox.instance2803;firefox.instance3100;firefox.instance3226;firefox.instance3437;firefox.instance3454;firefox.instance34541;firefox.instance3794;firefox.instance4107;firefox.instance4779;firefox.instance5037;firefox.instance5256;firefox.instance5392;firefox.instance6065;firefox.instance6097;firefox.instance6099;firefox.instance786;firefox.instance788;firefox.instance790;firefox.instance792;firefox.instance793;firefox.instance794;firefox.instance796;firefox.instance797;firefox.instance799;firefox.instance800;firefox.instance801;firefox.instance802;firefox.instance804;firefox.instance805;firefox.instance813;firefox.instance825;firefox.instance838;firefox.instance840;firefox.instance8451;firefox.instance846;firefox.instance857;firefox.instance9475;tdesktop;totem"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="tooltip-format" type="string" value="%x"/>
+      <property name="timezone" type="string" value="Iran"/>
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="3"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-7" type="string" value="xkb">
+      <property name="group-policy" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="systemload">
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="system-monitor-command" type="string" value="htop"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+        <property name="tabs-position" type="int" value="3"/>
+      </property>
+      <property name="new-window" type="empty">
+        <property name="always-on-top" type="bool" value="false"/>
+        <property name="sticky" type="bool" value="true"/>
+        <property name="width" type="int" value="240"/>
+        <property name="height" type="int" value="300"/>
+      </property>
+    </property>
+  </property>
+</channel>

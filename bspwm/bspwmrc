@@ -1,0 +1,32 @@
+#! /bin/bash
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor -d dev www sys doc gfx vid 
+
+bspc config border_width         1
+bspc config window_gap          0
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config focus_follows_pointer true 
+
+bspc rule -a firefox desktop="^2" follow=off
+bspc rule -a mpv desktop="^6" follow=on
+bspc rule -a audacious desktop="^5"
+bspc rule -a atril desktop="^4"
+bspc rule -a subl desktop="^1"
+bspc rule -a alacritty desktop="^1"
+bspc rule -a code desktop="^1"
+
+
+# auto starts 
+xrandr -s 1280x1024
+nitrogen --restore
+setxkbmap -layout us,ir,es
+setxkbmap -option 'grp:alt_shift_toggle'
+~/.config/polybar/launch.sh --forest
+picom &
+FixKeyboard
